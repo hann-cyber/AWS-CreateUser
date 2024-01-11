@@ -62,5 +62,5 @@ Success! We have created our first user within our cloud environment.
 To login, the user will need the account ID, username, and password. On the IAM homepage admin's can create a login link that skips the need to login with the account ID everytime, simplfying the process for users. Regardless, we can now see the user has been able to sign-in.
 
 <p align="center">
- <img src="https://imgur.com/xb0yiS5">
+ <img src="https://i.imgur.com/xb0yiS5.png">
 </p>
