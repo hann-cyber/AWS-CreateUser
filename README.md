@@ -6,13 +6,13 @@ The following is a guide on how to create a user in AWS using the IAM service.
 The first step is  to go the IAM dashboard and click "Users". Note in the corner we will see the location is set to "Global", indicating that IAM is a global service. The dropdown menu further indicates we cannot narrow down to a specific location unlike other services, which may be region locked.
 
 <p align="center">
- <img src="https://imgur.com/8SZSgcW">
+ <img src="https://i.imgur.com/8SZSgcW.png">
 </p>
 
 2) Here we can manage all users in our cloud environment. To begin user creation we will click "create".
 
 <p align="center">
- <img src="https://imgur.com/Xblr6XT">
+ <img src="https://i.imgur.com/Xblr6XT.png">
 </p>
 
 3) Add user details:
@@ -20,7 +20,7 @@ The first step is  to go the IAM dashboard and click "Users". Note in the corner
 It's generally good practice to not use a root account making changes to an environment. For this reason I'll be making myself an admin account with AWS console access. Since the account is for myself I input my own custom password and do not select to create a new password during the following sing-in. For another user it would make more sense to not only generate a password, but to also force the user to make a new password upon logging in the first time.
 
 <p align="center">
- <img src="https://imgur.com/Dr5J15W">
+ <img src="https://i.imgur.com/Dr5J15W.png">
 </p>
 
 4)  Creating user groups:
@@ -28,7 +28,7 @@ It's generally good practice to not use a root account making changes to an envi
 It is easier to manage larger environments by assigning users to groups and controlling what permissions & policies are assigned to each group. In this case, users <i>inherit</i> permissions from the group. On the other hand, permissions assigned to users outside of groups are called <i>in line</i> policies. In the event we do not have them created already, we must first create a group. To do this we select  "create group".
 
 <p align="center">
- <img src="https://imgur.com/uIaLYSv">
+ <img src="https://i.imgur.com/uIaLYSv.png">
 </p>
 
 5)  Add group details and policies:
@@ -36,7 +36,7 @@ It is easier to manage larger environments by assigning users to groups and cont
 Here  we give a name to the group we wish to create and add the desired policies. In the following example I'm adding full admin access.
 
 <p align="center">
- <img src="https://imgur.com/TTXRt9i">
+ <img src="https://i.imgur.com/TTXRt9i.png">
 </p>
 
 6)  Set the policy:
@@ -44,7 +44,7 @@ Here  we give a name to the group we wish to create and add the desired policies
 Ensure that the group policy  is selected and click "next".
 
 <p align="center">
- <img src="https://imgur.com/VlYs4xG">
+ <img src="https://i.imgur.com/VlYs4xG.png">
 </p>
 
 7)  Review & Add Tags:
@@ -54,7 +54,7 @@ Here we can review our changes and add potential tags, which assist in identifyi
 Success! We have created our first user within our cloud environment.
 
 <p align="center">
-  <img src="https://imgur.com/o6QGEWF">
+  <img src="https://i.imgur.com/o6QGEWF.png">
 </p>
 
 8) Testing Functionality:
