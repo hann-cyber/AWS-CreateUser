@@ -1,5 +1,5 @@
-# AWS-CreateUser
-The following is a guide on how to create a user in AWS using the IAM service.
+# Creating a User in IAM on AWS Cloud
+The following is a guide on how to create a user in AWS using the Identity and Access Management (IAM) service on AWS.
 
 1) IAM Dashboard:
 
